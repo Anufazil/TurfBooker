@@ -2,6 +2,7 @@
 <html lang="en" data-bs-theme="dark">
 <head>
     <meta charset="UTF-8">
+    <link rel="icon" type="image/png" href="{{ url_for('static', filename='favicon.png') }}">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% block title %}TurfBook - Book Sports Grounds Online{% endblock %}</title>
     
@@ -127,8 +128,15 @@
                 <div class="col-md-4">
                     <h5>Contact Us</h5>
                     <ul class="list-unstyled">
-                        <li><i class="fas fa-envelope me-2"></i> info@turfbook.com</li>
-                        <li><i class="fas fa-phone me-2"></i> +91 9876543210</li>
+                        <li><i class="fas fa-envelope me-2"></i>
+                            <a href="mailto:fazil.de.barrio@gmail.com" class="text-white">
+                                fazil.de.barrio@gmail.com
+                            </a>
+                        </li>
+                        <li><i class="fas fa-phone me-2"></i>
+                            <a href="tel:+919946596289" class="text-white"></a>
+                                +91 9946596289
+                        </li>
                     </ul>
                 </div>
             </div>
